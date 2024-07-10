@@ -1,0 +1,27 @@
+p.description {color: black;font-size: 15px;}
+.filter {position: relative;}
+.filter:before {
+	position: absolute;left: 0;top: 0;width: 100%;height: 100%;
+	display: block;z-index: 3;content: "";opacity: .7;}
+.row {/*padding-top: 20px;*/padding-bottom: 10px;}
+.card {
+	background: #fff;
+	box-shadow: 0 32px 44px -24px rgba(0, 0, 0, 0.23), 0 20px 25px 0px rgba(0, 0, 0, 0.12), 0 15px 10px -10px rgba(0, 0, 0, 0.2);
+	border-radius: 6px;margin-bottom: 30px;-webkit-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
+	-moz-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
+	-o-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);
+	-ms-transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);transition: all 370ms cubic-bezier(0.34, 1.61, 0.7, 1);}
+.card:not(.card-plain):not(.card-price):hover {
+	-webkit-transform: scale(1.03);-moz-transform: scale(1.03);
+	-o-transform: scale(1.03);-ms-transform: scale(1.03);transform: scale(1.03);
+	box-shadow: 0 26px 50px -10px rgba(0, 0, 0, 0.38), 0 10px 20px 0px rgba(0, 0, 0, 0.2), 0 15px 10px -10px rgba(0, 0, 0, 0.2);}
+.card h3 {margin-top: 0;}
+.card .title {margin-bottom: 5px;color: #333333;}
+.card-member .content {padding: 5px 25px 25px 25px;}
+.card-white {background: #FFFFFF;}
+.card-plain {border-radius: 0;box-shadow: none;background: none;}
+.section-get-started .container,.section-header-freebie .container,.section-our-team-freebie .container {
+	position: relative;
+	z-index: 100;
+	display: block;
+	text-align: center;}

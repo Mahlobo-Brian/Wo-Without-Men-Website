@@ -1,0 +1,28 @@
+.company-social {
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: -20px;
+	margin-right: 20px;}
+.company-social {text-align: center;}
+.company-social li{
+    display: inline-block;
+	margin:0 !important;
+	padding:0;}
+.company-social a{
+	margin:0;
+	padding:0;
+    display: block;
+	width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: transparent;
+	color: #fff;
+    -webkit-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;}
+.company-social a i{text-align: center;margin:0;padding-top: 10px;}
+.company-social .social-facebook a{background: black;}
+.company-social .social-pinterest a{background: black;}
+.col-md-6 a {display: inline-block;margin: 5px!important;padding:0;}
+.col-md-12 ul, a, i{text-align: center;}
+.company-social i {color: #FF69B4!important;font-size: 50px!important;}
